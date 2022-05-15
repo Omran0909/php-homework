@@ -1,0 +1,29 @@
+.banner {
+    background-image: url('./images/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: calc(100vw * 0.53); //1031 / 1919
+
+    .banner-text{
+            font-size: 72px;
+            // font-family: "ProximaNova";
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #6a0c3d 33%, #9f0dbc 66%, #cb8ad6);
+            // -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #0B2349;
+    }
+
+    .We_Are_Creative {
+        font-size: 55px;
+        font-family: "ProximaNova";
+        color: rgb(216, 40, 184);
+        text-transform: uppercase;
+        line-height: 0.333;
+        text-align: center;
+        position: absolute;
+        left: 460px;
+        top: 470px;
+        z-index: 178;
+    }
+}

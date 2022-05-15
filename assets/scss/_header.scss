@@ -1,0 +1,25 @@
+nav {
+    .logo-header {
+        margin-right: 90px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        // font-family: "ProximaNova";
+        color: rgb(42, 45, 46);
+        line-height: 1.341;
+    }
+
+    .right_nav {
+        .nav-link {
+        color: #cf38ef;
+        padding: 0 8px !important;
+        }
+
+        .nav-link.phone-nav {
+        font-size: 18px;
+        color: rgb(58, 65, 66);
+        padding: 36px !important;
+        }
+    }
+}

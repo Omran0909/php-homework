@@ -1,0 +1,32 @@
+.btn.btn-primary {
+        background-image: -moz-linear-gradient(
+        180deg,
+        rgb(216, 40, 184) 0%,
+        rgb(207, 56, 239) 100%
+        );
+        background-image: -webkit-linear-gradient(
+        180deg,
+        rgb(216, 40, 184) 0%,
+        rgb(207, 56, 239) 100%
+        );
+        background-image: -ms-linear-gradient(
+        180deg,
+        rgb(216, 40, 184) 0%,
+        rgb(207, 56, 239) 100%
+        );
+        opacity: 0.839;
+        background-color: none;
+        border-radius: 30px;
+        height: 60px;
+        padding-left: 60px;
+        padding-right: 35px;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        border: none;
+
+        .icon {
+            margin-left: 85px;
+            margin-top: 5px;
+        }
+    }
